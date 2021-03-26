@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop HTML</title>
+    <link rel="shortcut icon" href="./res/html.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!--this is the header elemnt-->
+    <header>
+      <h1 id="top">Porfolio</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home"> Home </a>
+          </li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button>Login</button>
+      <button>Sign up</button>
+    </header>
+    <!--This is Main section-->
+    <main>
+      <!--This is home section-->
+      <section id="home">
+        <h2><u>Home</u></h2>
+        <table>
+          <tr>
+            <td>
+              <img
+                src="./res/success.jpg"
+                alt="success"
+                width="500"
+                height="400px"
+              />
+            </td>
+            <td>
+              <img
+                src="./res/pushurself.jpg"
+                alt="pushSelf"
+                width="500"
+                height="400px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              &quot;Success doesn’t just find you. You have to go out and get
+              it."
+            </td>
+            <td>
+              "Push yourself, because no one else is going to do it for you."
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./res/hardergreater.jpg"
+                alt="harderGreater"
+                width="500"
+                height="400px"
+              />
+            </td>
+            <td>
+              <img
+                src="./res/Greatthings.jpg"
+                alt="Greatthings"
+                width="500"
+                height="400px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              "The harder you work for something, the greater you’ll feel when
+              you achieve it."
+            </td>
+            <td>"Great things never come from comfort zones."</td>
+          </tr>
+          <tr>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/ZDIVHvIVWjM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <!--This is about section-->
+      <section id="about">
+        <h2><u>About me</u></h2>
+        <div>
+          <h3>Hey I am Foulen Fouleni</h3>
+          <img
+            src="./res/avatar.jpg"
+            alt="myAvatar"
+            width="400px"
+            height="500px"
+          />
+          <p>
+            I am mechanical enginner, i made a decision to give a new direction
+            to my profesional carreer into <strong>web developer</strong>
+          </p>
+          <h3>Personal details</h3>
+          <table>
+            <tr>
+              <td><strong>Name:</strong></td>
+              <td>Foulen Fleni</td>
+            </tr>
+            <tr>
+              <td><strong>Email:</strong></td>
+              <td><a href="mailto: abc@example.com">abc@example.com</a></td>
+            </tr>
+            <tr>
+              <td><strong>Driving Licence:</strong></td>
+              <td>B</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <!--This is resume section-->
+      <section id="resume">
+        <h2><u>Resume</u></h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+          alias necessitatibus blanditiis optio quidem exercitationem officia ex
+          autem aliquam incidunt enim perferendis id nisi, vel cum odio labore
+          natus mollitia!
+        </p>
+      </section>
+      <!--This is our work section-->
+      <section id="work">
+        <h2><u>Work</u></h2>
+        <div>
+          <p>This is our Work section</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi,
+            vitae inventore soluta nesciunt illum corrupti dolore ea dolores ad
+            sapiente quia veniam, sunt autem tempore ut quas qui deleniti
+            asperiores!
+          </p>
+        </div>
+      </section>
+      <!--This is our contact section-->
+      <section id="contact">
+        <h2><u>Contact</u></h2>
+        <div>
+          <h3>you are welcome to contact us</h3>
+          <form>
+            <table>
+              <tr>
+                <td>
+                  <label>Name:</label>
+                </td>
+                <td>
+                  <input type="text" placeholder="please enter your name" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Email:</label>
+                </td>
+                <td>
+                  <input type="email" placeholder="example@exemple.com" />
+                </td>
+              </tr>
+              <tr>
+                <td><label>Message:</label></td>
+                <td>
+                  <textarea
+                    placeholder="Please type your message"
+                    cols="60"
+                    rows="10"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <button type="reset">Reset</button>
+                  <button type="submit">Submit</button>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <p>
+          "Accept the challenges so that you can feel the exhilaration of
+          victory." George S. Patton<br />
+          Let's live the moment!
+        </p>
+        <audio src="./res/victory.mp3" controls>
+          your browser doesn't support this type of media
+        </audio>
+      </section>
+    </main>
+    <footer>
+      <a href="#top">Go to the top</a>
+      <a href="https://www.facebook.com/"
+        ><img src="./res/facebookicon.png" width="80" height="80" alt="fb_icon"
+      /></a>
+      <p>All rights are reserved 2021&copy;</p>
+    </footer>
+  </body>
+</html>
